@@ -149,4 +149,4 @@ moder / moder123
 
 Обновить серверную часть для поддержки команды
 
-Сервер:
+Сервер: git@github.com:C-plus-plus-Developer/Server_Chat.git
