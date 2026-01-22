@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Check_List.dir/main.cpp.o CMakeFiles/Check_List.dir/Chat.cpp.o -o Check_List 

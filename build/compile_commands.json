@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/pokupatel/Client_Chat/build",
+  "command": "/usr/bin/g++  -I/home/pokupatel/Client_Chat/build -I/home/pokupatel/Client_Chat -g -std=gnu++17 -o CMakeFiles/Client_Chat.dir/main.cpp.o -c /home/pokupatel/Client_Chat/main.cpp",
+  "file": "/home/pokupatel/Client_Chat/main.cpp",
+  "output": "CMakeFiles/Client_Chat.dir/main.cpp.o"
+},
+{
+  "directory": "/home/pokupatel/Client_Chat/build",
+  "command": "/usr/bin/g++  -I/home/pokupatel/Client_Chat/build -I/home/pokupatel/Client_Chat -g -std=gnu++17 -o CMakeFiles/Client_Chat.dir/Chat.cpp.o -c /home/pokupatel/Client_Chat/Chat.cpp",
+  "file": "/home/pokupatel/Client_Chat/Chat.cpp",
+  "output": "CMakeFiles/Client_Chat.dir/Chat.cpp.o"
+}
+]

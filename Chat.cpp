@@ -119,16 +119,13 @@ void ChatClient::run() {
             registerUser();
         } 
         else if (choice == "2") {
-            if (login()) {
-                userPanel();
-            }
+            login();
         } 
         else if (choice == "3") {
             listUsers();
         } 
         else if (choice == "4") {
-            sendCommand("4");
-            std::cout << "Goodbye!\n";
+            sendCommand("7");
             running = false;
         }
         else if (choice == "5") {
@@ -174,7 +171,11 @@ bool ChatClient::login() {
     std::string response = sendCommand(command);
     std::cout << "Server: " << response << std::endl;
     
-    return response.find("successful") != std::string::npos;
+    if (response.find("successful") != std::string::npos){
+        userPanel();
+        return true;
+    }
+    return false;
 }
 
 bool ChatClient::LoginAdmin() {
@@ -311,7 +312,7 @@ void ChatClient::sendPublicMessage() {
 }
 
 void ChatClient::viewPrivateMessages() {
-    std::string command = "6";  // Команда для приватных сообщений
+    std::string command = "3";  // Команда для приватных сообщений
     std::string response = sendCommand(command);
     std::cout << "\n=== PRIVATE MESSAGES ===\n" << response << std::endl;
 }
