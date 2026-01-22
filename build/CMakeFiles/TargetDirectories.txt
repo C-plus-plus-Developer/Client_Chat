@@ -1,3 +1,0 @@
-/home/pokupatel/Client_Chat/build/CMakeFiles/Client_Chat.dir
-/home/pokupatel/Client_Chat/build/CMakeFiles/edit_cache.dir
-/home/pokupatel/Client_Chat/build/CMakeFiles/rebuild_cache.dir
